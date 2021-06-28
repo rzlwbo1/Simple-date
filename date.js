@@ -43,9 +43,3 @@ console.log(dateNow);
 
 
 
-/// display to dom
-
-// get elem
-const dateElem = document.getElementById('tgl-hr');
-//fill and append
-dateElem.innerHTML = dateNow;
