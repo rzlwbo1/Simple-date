@@ -4,14 +4,16 @@ Disini saya membuat simple date yang menampilkan tangal hari dan jam ke dalam DO
 
 ## Penggunaan / Usage
 
-1. get element terlebih dahulu
-2. passing ke element tersebut
+1. Get element terlebih dahulu
+2. Passing ke element tersebut
 
 ### Contoh
 
-get element.
+Get element.
+.
 `const dateElem = document.getElementById('tgl-hr');`
 
-passing ke element.
+Passing ke element.
+.
 `dateElem.innerHTML = dateNow;`
 

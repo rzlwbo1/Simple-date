@@ -32,14 +32,13 @@ const year = date.getFullYear();
 
 // get jam and menit
 const hour = date.getHours();
-const minutes = `${date.getMinutes < 10 ? `0${date.getMinutes()}` : `${date.getMinutes()}`}`;
-let convertMinutes = Number(minutes);
+const minutes = `${date.getMinutes() < 10 ? `0${date.getMinutes()}` : `${date.getMinutes()}`}`;
 
 // combined
-const dateNow = `Hari ${day} tanggal ${currentDate} ${month} ${year} jam ${hour}:${convertMinutes} `;
+const dateNow = `Hari ${day} tanggal ${currentDate} ${month} ${year} jam ${hour} : ${minutes} `;
 
 // log
-console.log(dateNow);
+console.log(minutes);
 
 
 
