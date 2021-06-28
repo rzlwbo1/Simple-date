@@ -9,9 +9,9 @@ Disini saya membuat simple date yang menampilkan tangal hari dan jam ke dalam DO
 
 ### Contoh
 
-get element
+get element.
 `const dateElem = document.getElementById('tgl-hr');`
 
-passing ke element
+passing ke element.
 `dateElem.innerHTML = dateNow;`
 
